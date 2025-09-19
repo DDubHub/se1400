@@ -25,12 +25,13 @@ header {
   font-family: Georgia, serif;
 }
 
-header h1 {
-  line-height: 140%;
-  padding: .5rem 1em; /* left padding for logo spacing */
-  background: url("utahtechlogo.png") no-repeat right;
-  background-origin: content-box;
-  margin-bottom: 0;
+header {
+  display: flex;
+  justify-content: space-between; /* pushes h1 left, logo right */
+  align-items: flex-start;       /* aligns logo to the top */
+  background-color: #003058;     /* your header bg */
+  padding: 10px;
+  color: #fff;
 }
 
 /* Navigation */
@@ -99,4 +100,9 @@ footer {
   height: 300px;
   background: url("facultyhero.jpg") center no-repeat;
   background-size: cover;
+}
+
+#logo {
+  width: 100px;   /* adjust size */
+  height: auto;
 }
