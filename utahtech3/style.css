@@ -28,7 +28,7 @@ header {
 header {
   display: flex;
   justify-content: space-between; /* pushes h1 left, logo right */
-  align-items: flex-start;       /* aligns logo to the top */
+  align-items: center;       /* aligns logo to the bottom */
   background-color: #003058;     /* your header bg */
   padding: 10px;
   color: #fff;
@@ -104,5 +104,5 @@ footer {
 
 #logo {
   width: 100px;   /* adjust size */
-  height: auto;
+  height: auto;  /* maintain aspect ratio */
 }
